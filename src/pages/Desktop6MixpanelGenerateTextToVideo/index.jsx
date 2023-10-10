@@ -31,13 +31,13 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-helvetica gap-5 items-center justify-start mx-auto w-full">
-        <header className="flex md:flex-col flex-row md:gap-5 items-center justify-center md:px-5 w-full">
+        <header className="flex md:flex-col flex-row md:gap-5 items-start justify-start md:px-5 w-[1400px] m-auto pt-3">
           <Img
-            className="h-[130px] md:h-auto object-cover w-[130px]"
-            src="images/img_youtube1.png"
+            className="h-[70px] md:h-auto object-cover w-[70px]"
+            src="/logo.png"
             alt="youtubeOne"
           />
-          <div className="flex md:flex-1 md:flex-col flex-row md:gap-10 items-center justify-between mb-[9px] ml-8 md:ml-[0] md:mt-0 mt-5 pl-3 w-[87%] md:w-full">
+          {/* <div className="flex md:flex-1 md:flex-col flex-row md:gap-10 items-center justify-between mb-[9px] ml-8 md:ml-[0] md:mt-0 mt-5 pl-3 w-[87%] md:w-full">
             <ul className="flex sm:flex-col flex-row sm:hidden items-center justify-start pr-[13px] py-[13px] w-[48%] md:w-full common-row-list">
               <li>
                 <a href="javascript:">
@@ -131,7 +131,7 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </header>
         <div className="flex flex-col items-center justify-start w-full">
           <div className="flex md:flex-col flex-row md:gap-11 h-[621px] md:h-auto items-center justify-between max-w-[1440px] md:px-10 sm:px-5 px-[120px] py-[60px] w-full">
@@ -181,27 +181,8 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                     </div>
                   </div>
                 </div>
-               
                 <PInput className="absolute bottom-[6%] flex flex-col font-opensans gap-1 items-center justify-start left-[0] w-[425px] sm:w-full" />
               </div>
-              {/* <div className=" flex flex-col gap-[23px] justify-start  w-[70%]">
-                <Input
-                  name="fieldbox"
-                  placeholder="https:///www.betimeful.com/"
-                  className="font-light font-poppins md:h-auto p-0 placeholder:text-blue_gray-400 sm:h-auto text-left text-sm w-full"
-                  wrapClassName="border border-gray-200_01 border-solid w-full"
-                  size="sm"
-                ></Input>
-                <Button
-                  className="cursor-pointer font-inter font-semibold h-[34px] md:ml-[0] ml-[287px] text-center text-sm w-[142px]"
-                  shape="round"
-                  size="sm"
-                  variant="gradient"
-                  color="purple_800_indigo_800"
-                >
-                  GO!
-                </Button>
-              </div> */}
                <Box style={{ display: "flex", marginTop: '-200px', width: "679px" }}>
                   <Box width="70%">
                     <p className="url-text">Your website URL</p>
@@ -224,34 +205,6 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                     />
                   </Box>
                   <Box width="30%" style={{ position: "relative" }}>
-                    {/* {!successUrl && checkUrlStatus && (
-                      <Button
-                        variant="contained"
-                        onClick={handleConfirm}
-                        style={{
-                          background:
-                            "linear-gradient(180deg, rgb(105.08, 50, 131) 0%, rgb(50.16, 50.16, 130.74) 100%)",
-                          padding: "8px 15px",
-                          borderRadius: "8px",
-                          position: "absolute",
-                          width: "150px",
-                          top: "29px",
-                          left: "-157px",
-                          height: "38px",
-                        }}
-                      >
-                        <Typography
-                          fontSize="15px !important"
-                          style={{
-                            fontFamily: "Inter, sans-serif ",
-                            fontWeight: "bold",
-                            color: 'white'
-                          }}
-                        >
-                          Confirm
-                        </Typography>
-                      </Button>
-                    )} */}
                     {!successUrl && !checkUrlStatus && (
                       <CircularProgress
                         style={{
@@ -262,18 +215,6 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                         }}
                       />
                     )}
-                    {/* {input && isValidUrl && (
-                      <Box>
-                        <CheckCircleIcon
-                          style={{
-                            color: "green",
-                            position: "absolute",
-                            top: "56px",
-                            left: "10px",
-                          }}
-                        />
-                      </Box>
-                    )} */}
                   </Box>
                 </Box>
                 {confirmClick && !isValidUrl && (
@@ -289,20 +230,8 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                   </Typography>
                 )}
             </div>
-            <img style={{width: '60%'}} src="/landing.svg" alt=""/>
+            <img style={{width: '100%', marginLeft: '3em'}} src="/landing.png" alt=""/>
             <div className="">
-              {/* <Desktop6MixpanelGenerateTextToVideoRowcreateainstareeOne className="flex flex-row items-center justify-center py-2 w-[3%]" /> */}
-              {/* <div className="flex flex-col font-inter h-11 md:h-auto items-center justify-center sm:px-5 px-6 py-3 w-[142px]">
-                <div className="flex flex-col items-center justify-center w-auto">
-                  <Text
-                    className="text-center text-red-500 text-sm w-auto"
-                    size="txtInterSemiBold14"
-                  >
-                    Generate
-                  </Text>
-                </div>
-              </div> */}
-            
             </div>
           </div>
           <div className="flex flex-col font-montserrat gap-3 items-center justify-start mt-[67px] pt-2.5 w-full">
