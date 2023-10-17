@@ -3,6 +3,7 @@ import React from "react";
 import { Button, Img, Input, List, PagerIndicator, Text } from "components";
 import DesktopFiveOconclusion from "components/DesktopFiveOconclusion";
 import LoaderBar from "components/LoaderBar";
+import Typewriter from "typewriter-effect";
 
 const DesktopFivePage = () => {
   return (
@@ -12,7 +13,15 @@ const DesktopFivePage = () => {
           <div className="flex flex-col items-start justify-start max-w-[1253px] mx-auto md:px-5 w-full">
             <div className="flex flex-col items-start justify-start w-auto md:w-full">
               <div className="flex flex-col items-start justify-start px-[0px] w-auto">
-                <div style={{backdropFilter: 'blur(5px)', position: 'fixed', top: 0, zIndex: 2}} className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-[1200px] py-[25px] ">
+                <div
+                  style={{
+                    backdropFilter: "blur(5px)",
+                    position: "fixed",
+                    top: 0,
+                    zIndex: 2,
+                  }}
+                  className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-[1200px] py-[25px] "
+                >
                   <div className="flex flex-col items-start justify-center pr-4 w-auto">
                     <div className="flex flex-col items-center justify-start w-auto">
                       <div className="flex flex-col items-start justify-start w-auto">
@@ -47,7 +56,7 @@ const DesktopFivePage = () => {
           <LoaderBar />
         </div>
         <div className="mt-[3rem] font-worksans md:h-[3747px] h-[3811px] max-w-[1241px] mx-auto md:px-5 relative w-full">
-          <div className="absolute md:h-[3747px] h-[3811px] inset-y-[0] my-auto right-[13%] w-[66%] md:w-full">
+          <div className="absolute md:h-[3630px] h-[3630px] inset-y-[0]  right-[13%] w-[66%] md:w-full">
             <div className="absolute flex flex-col h-max inset-[0] items-center justify-start m-auto w-auto">
               <div className="flex flex-col gap-8 items-center justify-start max-w-[800px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-start max-w-[695px] w-full">
@@ -65,8 +74,14 @@ const DesktopFivePage = () => {
                         className="leading-[40.00px] max-w-[695px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900_03"
                         size="txtWorkSansSemiBold36"
                       >
-                        The Impact of Technology on the Workplace: How
-                        Technology is Changing
+                        <Typewriter
+                          options={{
+                            strings: [" The Impact of Technology on the Workplace: How Technology is Changing"],
+                            autoStart: true,
+                            loop: true,
+                          }}
+                        />
+                       
                       </Text>
                     </div>
                     <div className="flex flex-col items-center justify-start w-auto">
@@ -89,22 +104,32 @@ const DesktopFivePage = () => {
                       size="txtSourceSerifProRegular20"
                     >
                       <>
-                        Traveling is an enriching experience that opens up new
-                        horizons, exposes us to different cultures, and creates
-                        memories that last a lifetime. However, traveling can
-                        also be stressful and overwhelming, especially if you
-                        don&#39;t plan and prepare adequately. In this blog
-                        article, we&#39;ll explore tips and tricks for a
-                        memorable journey and how to make the most of your
-                        travels.
+                      <Typewriter
+                          options={{
+                            strings: [`Traveling is an enriching experience that opens up new
+                            horizons, exposes us to different cultures, and creates
+                            memories that last a lifetime. However, traveling can
+                            also be stressful and overwhelming, especially if you
+                            don&#39;t plan and prepare adequately. In this blog
+                            article, we&#39;ll explore tips and tricks for a
+                            memorable journey and how to make the most of your
+                            travels.`,   `
+                            One of the most rewarding aspects of traveling is
+                    immersing yourself in the local culture and customs.
+                    This includes trying local cuisine, attending cultural
+                    events and festivals, and interacting with locals.
+                    Learning a few phrases in the local language can also go
+                    a long way in making connections and showing respect.
+                            `],
+                            autoStart: true,
+                            loop: true,
+                          }}
+                        />
+                       
                         <br />
                         <br />
-                        One of the most rewarding aspects of traveling is
-                        immersing yourself in the local culture and customs.
-                        This includes trying local cuisine, attending cultural
-                        events and festivals, and interacting with locals.
-                        Learning a few phrases in the local language can also go
-                        a long way in making connections and showing respect.
+                       
+                        
                       </>
                     </Text>
                   </div>
@@ -272,16 +297,14 @@ const DesktopFivePage = () => {
                 <DesktopFiveOconclusion className="flex flex-col gap-12 items-start justify-start max-w-[800px] w-full" />
               </div>
             </div>
-            <div style={{backdropFilter: 'blur(10px)'}} className="absolute bg-white-A700_6d bottom-[0] flex flex-col font-inter h-[2202px] md:h-auto inset-x-[0] items-start justify-start max-w-[804px] mx-auto sm:px-5 px-6 py-8 rounded-[16px] w-full">
-              <div className="flex flex-col items-start justify-start pt-[0.07px] w-[300px]">
-                <Button
-                  className="cursor-pointer font-semibold rounded-[14px] shadow-bs5 sm:text-[21px] md:text-[23px] text-[25px] text-center w-[300px]"
-                  size="md"
-                  variant="gradient"
-                  color="purple_800_indigo_800"
-                >
+            <div
+              style={{ backdropFilter: "blur(10px)" }}
+              className="absolute bg-white-A700_6d bottom-[0] flex flex-col font-inter h-[1950px] md:h-auto inset-x-[0] items-center justify-start max-w-[804px] mx-auto sm:px-5 px-6 py-8 rounded-[16px] w-full"
+            >
+              <div className="flex flex-col items-start justify-start pt-[80px] w-[300px]">
+                <button className="cursor-pointer font-semibold rounded-[14px] shadow-bs5 sm:text-[21px] md:text-[23px] text-[25px] text-center w-[300px] bg-[#060640] text-[#fff] p-[1rem] ml-[-1rem]">
                   Get Started
-                </Button>
+                </button>
               </div>
             </div>
           </div>
@@ -376,7 +399,7 @@ const DesktopFivePage = () => {
                   </div>
                 </div>
                 <div className="flex md:flex-1 flex-col items-center justify-start w-[37%] md:w-full">
-                  <div className="bg-gradient1  flex flex-col items-center justify-start p-[21px] sm:px-5 rounded-[12px] shadow-bs4 w-full">
+                  <div className="bg-[#060640]  flex flex-col items-center justify-start p-[21px] sm:px-5 rounded-[12px] shadow-bs4 w-full">
                     <div className="flex flex-col justify-start mb-[22px] mt-4 w-full">
                       <div className="flex flex-row gap-[9px] items-center justify-start w-[42%] md:w-full">
                         <Img
@@ -389,13 +412,13 @@ const DesktopFivePage = () => {
                             className="text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl"
                             size="txtHelveticaBold24"
                           >
-                            Leo
+                            Daniyal
                           </Text>
                           <Text
                             className="text-center text-lg text-white-A700"
                             size="txtHelvetica18"
                           >
-                            Founder
+                            Founder @BeTimeful
                           </Text>
                         </div>
                       </div>
@@ -405,7 +428,13 @@ const DesktopFivePage = () => {
                           src="images/img_formkitpeople_white_a700.svg"
                           alt="formkitpeople_One"
                         />
-                        <div className="h-10 w-10"></div>
+                        <div className="h-10 w-10">
+                          <Img
+                            className="h-10"
+                            src="/view.svg"
+                            alt="formkitpeople_One"
+                          />
+                        </div>
                       </div>
                       <div className="flex flex-row items-center justify-between ml-4 md:ml-[0] mt-[7px] w-[88%] md:w-full">
                         <Text
@@ -532,13 +561,13 @@ const DesktopFivePage = () => {
               <div className="flex flex-row items-center justify-center md:ml-[0] ml-[378px] mt-[35px] w-[30%] md:w-full">
                 <Img
                   className="h-9 md:h-auto object-cover w-9"
-                  src="images/img_chevrondown.png"
+                  src="/arrow-left.svg"
                   alt="chevrondown"
                 />
                 <PagerIndicator
                   className="flex h-[17px] ml-9 w-[177px]"
                   count={6}
-                  activeCss="inline-block cursor-pointer rounded-[50%] h-[17px] bg-gradient1  w-[17px]"
+                  activeCss="inline-block cursor-pointer rounded-[50%] h-[17px]  bg-[#060640]  w-[17px]"
                   activeIndex={1}
                   inactiveCss="inline-block cursor-pointer rounded-[50%] h-[17px] bg-gray-400_01 w-[17px]"
                   selectedWrapperCss="inline-block mx-[7.50px]"
@@ -546,7 +575,7 @@ const DesktopFivePage = () => {
                 />
                 <Img
                   className="h-9 md:h-auto ml-[37px] object-cover w-9"
-                  src="images/img_chevrondown_31x36.png"
+                  src="/arrow-right.svg"
                   alt="chevrondown_One"
                 />
               </div>

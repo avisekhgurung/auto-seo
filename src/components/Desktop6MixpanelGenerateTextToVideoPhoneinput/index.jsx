@@ -42,7 +42,7 @@ const PInput = (props) => {
                 <Box sx={{ position: "relative" }}>
                   <Button
                     variant="contained"
-                    // onClick={}
+                    onClick={() => window.open("http://localhost:3001/blog","_self")}
                     style={{
                       position: "absolute",
                       left: "-157px",

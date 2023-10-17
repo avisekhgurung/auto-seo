@@ -5,3 +5,4 @@ export { Line } from "./Line";
 export { List } from "./List";
 export { PagerIndicator } from "./PagerIndicator";
 export { Text } from "./Text";
+export { Radio } from "./Radio";

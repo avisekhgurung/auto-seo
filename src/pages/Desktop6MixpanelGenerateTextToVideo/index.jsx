@@ -134,7 +134,7 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
           </div> */}
         </header>
         <div className="flex flex-col items-center justify-start w-full">
-          <div className="flex md:flex-col flex-row md:gap-11 h-[621px] md:h-auto items-center justify-between max-w-[1440px] md:px-[10px] sm:px-5 px-[120px] mt-[-45px] w-full">
+          <div className="flex md:flex-col flex-row md:gap-11 h-[621px] md:h-auto items-center justify-between max-w-[1440px] md:px-[10px] sm:px-5  mt-[-45px] w-full">
             <div className="md:h-80 h-[540px] relative w-[53%] md:w-full">
               <div className="md:h-80 h-[540px] m-auto w-full">
                 <div className="absolute flex flex-col md:h-auto h-full inset-[0] items-center justify-start m-auto max-w-[627px] pt-8 w-full">
@@ -181,10 +181,10 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                     </div>
                   </div>
                 </div>
-                <PInput className="absolute bottom-[6%] flex flex-col font-opensans gap-1 items-center justify-start left-[0] w-[425px] sm:w-full" />
+                <PInput className="absolute left-[1.5rem] bottom-[6%] flex flex-col font-opensans gap-1 items-center justify-start  w-[425px] sm:w-full" />
               </div>
                <Box style={{ display: "flex", marginTop: '-200px', width: "679px" }}>
-                  <Box width="70%">
+                  <Box className="ml-[1.5rem]" width="70%">
                     <p className="url-text">Your website URL</p>
                     <TextField
                       variant="outlined"
@@ -286,236 +286,14 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
               </div>
             </div>
           </div>
-          <div className="flex md:flex-col flex-row font-dmsans gap-7 items-start justify-start max-w-[1208px] mt-[97px] mx-auto md:px-5 w-full">
-            <div className="bg-light_green-50 flex md:flex-1 flex-col gap-[53px] h-[633px] md:h-auto items-start justify-start pb-[59.54px] rounded-[20px] w-[600px] md:w-full">
-              <div className="flex flex-col items-center justify-end p-[18px] w-full">
-                <div className="flex flex-col items-center justify-start mt-[103px] w-[74%] md:w-full">
-                  <div className="bg-white-A700 flex flex-col items-center justify-start p-[19px] rounded-[24px] w-full">
-                    <div className="bg-blue-50 flex flex-col items-center justify-end my-[5px] p-6 sm:px-5 rounded-[7px] w-full">
-                      <div className="flex flex-col gap-[8.99px] h-[185px] md:h-auto items-center justify-start mt-[26px] w-56">
-                        <Img
-                          className="h-[95px] md:h-auto object-cover w-[191px] sm:w-full"
-                          src="images/img_graph.png"
-                          alt="graph"
-                        />
-                        <div className="flex flex-col gap-2 items-center justify-start w-full">
-                          <div className="flex flex-col items-center justify-between w-[215px]">
-                            <Text
-                              className="sm:text-[19.98px] md:text-[21.98px] text-[23.98px] text-center text-green-A700"
-                              size="txtDMSansBold2398"
-                            >
-                              60
-                            </Text>
-                          </div>
-                          <div className="flex flex-col items-center justify-between w-[222px]">
-                            <Text
-                              className="sm:text-[19.98px] md:text-[21.98px] text-[23.98px] text-black-900 text-center w-auto"
-                              size="txtDMSansBold2398Black900"
-                            >
-                              Overall score : High
-                            </Text>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="flex sm:flex-col flex-row sm:gap-5 items-start justify-start md:px-10 sm:px-5 px-[60px] w-[580px] sm:w-full">
-                <div className="flex flex-col font-avenirnext items-start justify-start md:pr-10 sm:pr-5 pr-[77px] w-[460px] sm:w-full">
-                  <Text
-                    className="leading-[40.00px] max-w-[460px] md:max-w-full md:text-2xl sm:text-[22px] text-[26px] text-gray-900_01"
-                    size="txtAvenirNextDemiBold26"
-                  >
-                    Scouts: High Volume, Low Difficulty Keywords
-                  </Text>
-                </div>
-                <Button
-                  className="cursor-pointer font-bold font-helvetica h-16 rounded-[50px] md:text-3xl sm:text-[28px] text-[32px] text-center w-[70px]"
-                  size="md"
-                  variant="gradient"
-                  color="purple_800_indigo_800"
-                >
-                  1
-                </Button>
-              </div>
+          <div className="mt-[10rem]">
+            <div className="flex gap-[2rem]">
+              <img src="/10.png"/>
+              <img src="/11.png"/>
             </div>
-            <div className="bg-gray-50 flex flex-col font-avenirnext md:h-auto pt-[60px] relative rounded-[20px] w-[580px] sm:w-full">
-              <div className="flex mx-auto md:px-10 sm:px-5 px-[60px] w-[580px] sm:w-full">
-                <div className="flex flex-col font-avenirnext items-start justify-start my-auto sm:pr-5 pr-7 w-full">
-                  <Text
-                    className="leading-[40.00px] max-w-[391px] md:max-w-full md:text-2xl sm:text-[22px] text-[26px] text-deep_purple-A200"
-                    size="txtAvenirNextRegular26"
-                  >
-                    Writes: SEO Optimized Blogs Using 1,200 Updated Factors
-                  </Text>
-                </div>
-                <Text
-                  className="bg-gradient  flex h-16 items-center justify-center ml-[-23px] sm:px-5 rounded-[50%] md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700 w-16 z-[1]"
-                  size="txtHelveticaBold32"
-                >
-                  2
-                </Text>
-              </div>
-              <div className="flex flex-col items-center justify-start mt-[-12px] mx-auto p-[107px] md:px-10 sm:px-5 w-full z-[1]">
-                <div className="flex flex-col items-center justify-start w-[97%] md:w-full">
-                  <List
-                    className="flex flex-col gap-[17px] items-center w-full"
-                    orientation="vertical"
-                  >
-                    <div className="h-[83px] mr-[51px] my-0 relative w-[86%]">
-                      <div className="absolute flex flex-col h-full inset-[0] items-center justify-center m-auto w-full">
-                        <div className="bg-white-A700 flex flex-col items-end justify-start p-[11px] rounded-lg shadow-bs3 w-full">
-                          <div className="flex flex-col items-start justify-start mb-3 mr-[5px] w-[73%] md:w-full">
-                            <div className="flex flex-row items-end justify-between w-full">
-                              <div className="bg-gray-400_87 h-1.5 mb-[3px] mt-[11px] rounded-[3px] w-[33%]"></div>
-                              <div className="flex flex-col items-center justify-start">
-                                <div className="flex flex-col items-center justify-start w-full">
-                                  <Text
-                                    className="text-[15.04px] text-black-900"
-                                    size="txtAvenirNextBold1504"
-                                  >
-                                    08min
-                                  </Text>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="bg-gray-400 h-1.5 mt-[5px] rounded-[3px] w-[54%]"></div>
-                            <div className="bg-gray-400_87 h-1.5 mt-[9px] rounded-[3px] w-1/4"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="absolute bg-purple-900 flex flex-col h-full inset-y-[0] items-center justify-start left-[0] my-auto p-[17px] rounded-bl-lg rounded-tl-lg w-[23%]">
-                        <Img
-                          className="h-[35px] mb-[9px] mt-[5px] w-[35px]"
-                          src="images/img_settings.svg"
-                          alt="settings"
-                        />
-                      </div>
-                    </div>
-                    <div className="md:h-[81px] h-[83px] ml-[52px] my-0 relative w-[86%]">
-                      <div className="absolute bg-white-A700 flex flex-col h-max inset-[0] items-end justify-center m-auto p-2.5 rounded-lg shadow-bs3 w-full">
-                        <div className="flex flex-col items-start justify-start mb-[13px] mr-1.5 w-[71%] md:w-full">
-                          <div className="flex flex-row items-end justify-between w-full">
-                            <div className="bg-gray-400_87 h-[5px] mb-0.5 mt-3 rounded-sm w-[22%]"></div>
-                            <div className="flex flex-col items-center justify-start">
-                              <div className="flex flex-col items-center justify-start w-full">
-                                <Text
-                                  className="text-[15.04px] text-black-900"
-                                  size="txtAvenirNextBold1504"
-                                >
-                                  06min
-                                </Text>
-                              </div>
-                            </div>
-                          </div>
-                          <Line className="bg-gray-400 h-[5px] mt-[7px] rounded-sm w-[44%]" />
-                          <Line className="bg-gray-400_87 h-[5px] mt-[9px] rounded-sm w-[38%]" />
-                        </div>
-                      </div>
-                      <div className="absolute bg-pink-400 flex flex-col h-full inset-y-[0] items-center justify-start left-[0] my-auto p-4 rounded-bl-lg rounded-tl-lg w-[23%]">
-                        <Img
-                          className="h-[35px] my-[7px] w-[35px]"
-                          src="images/img_settings.svg"
-                          alt="settings"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex md:flex-1 flex-col items-center justify-start ml-[5px] mr-[46px] my-0 w-[86%] md:w-full">
-                      <div className="bg-white-A700 flex flex-col items-start justify-start rounded-lg shadow-bs3 w-full">
-                        <div className="flex flex-row gap-[13px] items-start justify-start w-[94%] md:w-full">
-                          <div className="bg-gradient2  flex flex-col items-center justify-start p-4 rounded-bl-lg rounded-tl-lg w-1/4">
-                            <Img
-                              className="h-[35px] my-[7px] w-[35px]"
-                              src="images/img_settings.svg"
-                              alt="settings"
-                            />
-                          </div>
-                          <div className="flex flex-col items-start justify-start mt-[11px] w-[71%]">
-                            <div className="flex flex-row items-end justify-between w-full">
-                              <div className="bg-gray-400_87 h-[5px] mb-[3px] mt-[11px] rounded-sm w-[22%]"></div>
-                              <div className="flex flex-col items-center justify-start">
-                                <div className="flex flex-col items-center justify-start w-full">
-                                  <Text
-                                    className="text-[15.04px] text-black-900"
-                                    size="txtAvenirNextBold1504"
-                                  >
-                                    05min
-                                  </Text>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="bg-gray-400 h-1.5 mt-[5px] rounded-[3px] w-[62%]"></div>
-                            <div className="bg-gray-400_87 h-1.5 mt-[9px] rounded-[3px] w-[23%]"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </List>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex md:flex-col flex-row gap-7 items-start justify-start max-w-[1208px] mt-[37px] mx-auto md:px-5 w-full">
-            <div className="bg-gradient3  flex md:flex-1 flex-col gap-[53px] h-[633px] md:h-auto items-start justify-start pb-[59.54px] rounded-[20px] w-[600px] md:w-full">
-              <Img
-                className="h-[450px] rounded-tl-[20px] rounded-tr-[20px] w-[600px]"
-                src="images/img_iconflagamerica.svg"
-                alt="aiintelligence"
-              />
-              <div className="md:h-16 h-[65px] md:px-10 sm:px-5 px-[60px] relative w-[580px] sm:w-full">
-                <div className="absolute flex flex-col font-avenirnext inset-x-[0] items-start justify-start mx-auto md:pr-10 sm:pr-5 pr-[77px] top-[0] w-[460px] sm:w-full">
-                  <Text
-                    className="md:text-2xl sm:text-[22px] text-[26px] text-white-A700 w-auto"
-                    size="txtAvenirNextBold26"
-                  >
-                    <span className="text-white-A700 font-avenirnext text-left font-bold">
-                      Links:
-                    </span>
-                    <span className="text-white-A700 font-avenirnext text-left font-normal">
-                      {" "}
-                      Internal Backlinks to ?
-                    </span>
-                    <span className="text-white-A700 font-avenirnext text-left font-bold">
-                      ?
-                    </span>
-                  </Text>
-                </div>
-                <Text
-                  className="absolute bg-gradient h-16 flex  inset-y-[0] items-center justify-center my-auto sm:px-5 right-[1%] rounded-[50%] md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700 w-16"
-                  size="txtHelveticaBold32"
-                >
-                  3
-                </Text>
-              </div>
-            </div>
-            <div className="bg-deep_orange-200 flex sm:flex-1 flex-col gap-[59.46px] h-[633px] md:h-auto items-start justify-between pt-[60px] rounded-[20px] w-[580px] sm:w-full">
-              <div className="flex sm:flex-col flex-row gap-[19px] items-start justify-start pl-[29px] md:pr-10 pr-[60px] sm:px-5 w-[580px] sm:w-full">
-                <div className="flex flex-col font-avenirnext items-start justify-start sm:pr-5 pr-7 w-[460px] sm:w-full">
-                  <Text
-                    className="leading-[40.00px] max-w-[460px] md:max-w-full md:text-2xl sm:text-[22px] text-[26px] text-gray-900_02"
-                    size="txtAvenirNextBold26Gray90002"
-                  >
-                    <span className="text-gray-900_02 font-avenirnext text-left font-bold">
-                      Tweaks
-                    </span>
-                    <span className="text-gray-900_02 font-avenirnext text-left font-normal">
-                      : Routinely Optimizes Your Technical SEO.
-                    </span>
-                  </Text>
-                </div>
-                <Text
-                  className="bg-gradient  flex h-16 items-center justify-center sm:px-5 rounded-[50%] md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700 w-16"
-                  size="txtHelveticaBold32"
-                >
-                  4
-                </Text>
-              </div>
-              <Img
-                className="h-[444px] rounded-bl-[20px] rounded-br-[20px] w-[580px]"
-                src="images/img_frame1000002910.svg"
-                alt="frame1000002910"
-              />
+            <div className="flex mt-[3rem] gap-[2rem]">
+            <img src="/12.png"/>
+              <img src="/13.png"/>
             </div>
           </div>
           <div className="bg-white-A700 flex flex-col font-helvetica items-center justify-start max-w-6xl mt-[151px] mx-auto pt-[37px] md:px-5 px-[37px] rounded-[25px] w-full">
@@ -609,9 +387,9 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                   </div>
                 </div>
                 <div className="flex md:flex-1 flex-col items-center justify-start w-[37%] md:w-full">
-                  <div className="bg-gradient4  flex flex-col items-center justify-start p-[21px] sm:px-5 rounded-[12px] shadow-bs4 w-full">
+                  <div className="bg-[#060640]  flex flex-col items-center justify-start p-[21px] sm:px-5 rounded-[12px] shadow-bs4 w-full">
                     <div className="flex flex-col justify-start mb-[22px] mt-4 w-full">
-                      <div className="flex flex-row gap-2 items-center justify-start w-[56%] md:w-full">
+                      <div className="flex flex-row gap-2 items-center justify-start w-[86%] md:w-full">
                         <Img
                           className="h-[72px] md:h-auto rounded-[50%] w-[72px]"
                           src="images/img_ellipse5.png"
@@ -622,13 +400,13 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                             className="text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl"
                             size="txtHelveticaBold24"
                           >
-                            Leo
+                            Daniyal
                           </Text>
                           <Text
                             className="text-center text-lg text-white-A700"
                             size="txtHelvetica18"
                           >
-                            Lead Designer
+                          Founder @BeTimeful
                           </Text>
                         </div>
                       </div>
@@ -638,7 +416,13 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                           src="images/img_formkitpeople_white_a700.svg"
                           alt="formkitpeople_One"
                         />
-                        <div className="h-10 w-10"></div>
+                        <div className="h-10 w-10">
+                        <Img
+                          className="h-10"
+                          src="/view.svg"
+                          alt="formkitpeople_One"
+                        />
+                        </div>
                       </div>
                       <div className="flex flex-row items-center justify-between md:ml-[0] ml-[31px] mt-1.5 w-[74%] md:w-full">
                         <Text
@@ -765,13 +549,13 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
               <div className="flex flex-row items-start justify-center md:ml-[0] ml-[378px] mt-[35px] w-[30%] md:w-full">
                 <Img
                   className="h-[31px] md:h-auto object-cover"
-                  src="images/img_chevrondown.png"
+                  src="/arrow-left.svg"
                   alt="chevrondown"
                 />
                 <PagerIndicator
                   className="flex h-[17px] ml-9 mt-2.5 w-[177px]"
                   count={6}
-                  activeCss="inline-block cursor-pointer rounded-[50%] h-[17px] w-[17px] bg-[#FF335B]"
+                  activeCss="inline-block cursor-pointer rounded-[50%] h-[17px] w-[17px] bg-[#060640]"
                   activeIndex={1}
                   inactiveCss="inline-block cursor-pointer rounded-[50%] h-[17px] bg-gray-400_01 w-[17px]"
                   selectedWrapperCss="inline-block mx-[7.50px]"
@@ -779,7 +563,7 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                 />
                 <Img
                   className="h-[31px] md:h-auto ml-[37px] object-cover"
-                  src="images/img_chevrondown_31x36.png"
+                  src="/arrow-right.svg"
                   alt="chevrondown_One"
                 />
               </div>
@@ -805,7 +589,7 @@ const Desktop6MixpanelGenerateTextToVideoPage = () => {
                   shape="round"
                   size="md"
                   variant="gradient"
-                  color="pink_500_deep_orange_100"
+                  color="purple_800_indigo_800"
                 >
                   Get started
                 </Button>

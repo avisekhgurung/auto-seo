@@ -12,6 +12,7 @@ const variants = {
     indigo_A200_01: "bg-indigo-A200_01 text-white-A700",
     white_A700: "bg-white-A700 shadow-bs",
     indigo_A200_0c: "bg-indigo-A200_0c text-indigo-A200_01",
+    
   },
 };
 const sizes = { xs: "p-[5px]", sm: "p-2", md: "p-[13px]", lg: "p-5" };

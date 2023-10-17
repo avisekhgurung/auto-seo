@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "pages/Home";
 import NotFound from "pages/NotFound";
+import Pricing from "pages/Pricing/Pricing";
 const DesktopFive = React.lazy(() => import("pages/DesktopFive"));
 const DesktopFour = React.lazy(() => import("pages/DesktopFour"));
 const Desktop6MixpanelGenerateTextToVideo = React.lazy(() =>
@@ -18,8 +19,9 @@ const ProjectRoutes = () => {
             path="/desktop6mixpanelgeneratetexttovideo"
             element={<Desktop6MixpanelGenerateTextToVideo />}
           />
-          <Route path="/desktopfour" element={<DesktopFour />} />
-          <Route path="/desktopfive" element={<DesktopFive />} />
+          <Route path="/blog" element={<DesktopFour />} />
+          <Route path="/details" element={<DesktopFive />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes>
       </Router>
     </React.Suspense>
